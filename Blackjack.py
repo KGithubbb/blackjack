@@ -11,7 +11,6 @@ print("Player2 card:    " + str(player2))
 #until 21 or over
 while(player2 < 21): #1/3でストップ
     half = randint(1, 3)
-    print(half)
     if(half == 1):
         player2 = (int(player2) + randint(1,13))
     elif(half == 2):
