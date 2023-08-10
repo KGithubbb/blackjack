@@ -33,8 +33,9 @@ while(Player1 <= 21):
 Result = Player1 + player2
 SResult = Player1 - player2
 if (SResult == 0): # and or
-    print('Draw')
     print("player1:",str(Player1),"player2:",str(player2))
+    print('Draw')
+    exit()
 if(Player1 > player2 and 42 > Result):
     print("player1:",str(Player1),"player2:",str(player2))
     print('you win')
